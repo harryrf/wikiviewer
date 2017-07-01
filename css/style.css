@@ -3,7 +3,30 @@ body {
   background-color: #1A1D1A;
 }
 
+body a {
+  color: #1A1D1A;
+  text-decoration: none;
+}
+
 #wikiSearch {
   text-align: center;
   margin-top: 35%;
+}
+
+#random {
+  margin-top: 20px;
+}
+
+#random a {
+  text-decoration: none;
+}
+
+
+/* Overrides Bootstraps default #333 color for buttons */
+
+.form-control,
+.btn {
+  color: #A49966;
+  border: 1px solid #A49966;
+  background-color: #1A1D1A;
 }
