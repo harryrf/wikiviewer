@@ -22,11 +22,20 @@ body a {
 }
 
 
-/* Overrides Bootstraps default #333 color for buttons */
+/* Overrides Bootstrap's default #333 color for button text */
 
 .form-control,
 .btn {
   color: #A49966;
   border: 1px solid #A49966;
   background-color: #1A1D1A;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #1A1D1A;
+}
+
+.btn-group a:hover {
+  color: #A49966;
 }
